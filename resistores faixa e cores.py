@@ -1,9 +1,8 @@
 <<<<<<< HEAD
 # calculo de resistores
-while True:
-    lista = {'cores':2, 'faixa':1}
+while True:    
     a = lista[str(input('Por cores ou por faixa?: '))]
-    if a == 1:
+    if a == "cores":
         dados2 = {100: 'marrom', 50: 'vermelho', 15: 'laranja', 25: 'amaralo', 10: 'azul', 5: 'violeta'}
         dados = {5: 'ouro', 1: 'marrom', 2: 'vermelho', 0.5: 'verde', 0.25: 'azul', 0.1: 'violeta', 0.05: 'cinza',
                  10: 'prata'}
@@ -42,7 +41,7 @@ while True:
             print(str(y))
             print(str(j))
             print(str(k))
-    elif a == 2:
+    elif a == "faixa":
         dados2 = {'marrom': 100, 'vermelho': 50, 'laranja': 15, 'amarelo': 25, 'azul': 10, 'violeta': 5}
         dados = {'ouro': 0.05, 'marrom': 0.01, 'vermelho': 0.02, 'verde': 0.005, 'azul': 0.0025, 'violeta': 0.001,'cinza': 0.0005, 'prata': 10}
         b = {'preto': 0, 'marrom': 1, 'vermelho': 2, 'laranja': 3, 'amarelo': 4, 'verde': 5, 'azul': 6, 'violeta': 7, 'cinza': 8, 'branco': 9}
