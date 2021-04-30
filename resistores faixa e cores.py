@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+# calculo de resistores
 while True:
     lista = {'cores':2, 'faixa':1}
     a = lista[str(input('Por cores ou por faixa?: '))]
@@ -82,6 +83,7 @@ while True:
             print(str(g))
             print(str(h))
             print(str(y))
+
         elif a == 5:
             f = (b[int(input('qual a primeira faixa?: '))])
             g = (b[int(input('qual a segunda faixa?: '))])
